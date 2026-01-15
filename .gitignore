@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ================================
+# YOLO / Computer Vision
+# ================================
+runs/
+*.pt
+*.onnx
+*.engine
+
+# ================================
+# Data & Videos
+# ================================
+data/
+datasets/
+frames/
+videos/
+*.mp4
+*.avi
+*.dav
+
+# ================================
+# Environment variables
+# ================================
+.env
